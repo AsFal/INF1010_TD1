@@ -1,9 +1,22 @@
+/****************************************************************************
+* Fichier: Rayon.cpp
+* Auteurs: Alexandre Falardeau et Hugo Leclair
+* Date: 26 janvier 2018
+* Mise a jour : 11 mai 2011
+* Description: Description des méthodes de la classe Rayon.cpp
+****************************************************************************/
+
 #include "Rayon.h"
 #include "Produit.h"
 #include <iostream>
 using namespace std;
 
-
+/****************************************************************************
+* Fonction: Rayon::Rayon
+* Description: Constructeur par défaut
+* Paramètres: aucun
+* Retour: aucun
+****************************************************************************/
 void Rayon::doublerTailleTableau(Produit**& produitsPtr)
 {
 	capaciteProduits_ *= 2;
